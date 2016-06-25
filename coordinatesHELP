@@ -18,7 +18,7 @@ import static org.graphstream.algorithm.Toolkit.*;
 import java.io.BufferedReader;
 import java.io.FileReader; 
 	/**
-	 * This class abstracts an coodination method to power grids 
+	 * This class define coodinates to power grids nodes
 	 * @author Matheus Macedo Lopes
 	 * @version final 1.0
 	 **/
@@ -70,7 +70,7 @@ public class coordinatesHELP implements ViewerListener {
 				graph.addNode(nome).addAttribute("xy",Double.parseDouble(corX),Double.parseDouble(corY));
 			}
 			kk++;	
-			auxRead = readLine(kk,"C:/Users/matheus/Desktop/TESE/workspace/testeGUI/src/testeGUI/coordXY_ieee123.txt");
+			auxRead = readLine(kk,"C:/Users/matheus/Desktop/TESE/workspace/testeGUI/src/testeGUI/coordXY_ieee37.txt");
 		}
 		kk=0;
 		
@@ -87,7 +87,7 @@ public class coordinatesHELP implements ViewerListener {
 				graph.addEdge(eleName,FromBus,to_Buss).addAttribute("length",Double.parseDouble(lenghLn));
 			}
 			kk++;	
-			auxRead2 = readLine(kk,"C:/Users/matheus/Desktop/TESE/workspace/testeGUI/src/testeGUI/coordFromTo_ieee123.txt");
+			auxRead2 = readLine(kk,"C:/Users/matheus/Desktop/TESE/workspace/testeGUI/src/testeGUI/coordFromTo_ieee37.txt");
 		}
 
 		for (Node n : graph) {
