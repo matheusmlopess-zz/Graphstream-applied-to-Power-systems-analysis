@@ -70,19 +70,8 @@ public class ieee123dmsGUIvalidation{
 		
 		viewer = g.display(false);
 
-		// The default action when closing the view is to quit
-		// the program.
 		viewer.setCloseFramePolicy(Viewer.CloseFramePolicy.CLOSE_VIEWER);
 
-		// We connect back the viewer to the graph,
-		// the graph becomes a sink for the viewer.
-		// We also install us as a viewer listener to
-		// intercept the graphic events.
-		
-		
-
-		// Edge lengths are stored in an attribute called "length"
-		// The length of a path is the sum of the lengths of its edges
 		Dijkstra dijkstra = new Dijkstra(Dijkstra.Element.EDGE, null, "length");
 
 		// Compute the shortest paths in g from A to all nodes
