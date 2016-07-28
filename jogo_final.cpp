@@ -239,8 +239,6 @@ void mpp_start(int socket_id,int soma,int ii)
       writeline(socket_id,"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ");
       writeline(socket_id,"\t\t\t\tSINF 2015 ");
       writeline(socket_id,"\t\t\t  Matheus Macedo Lopes - 201108096");
-      writeline(socket_id,"\t\t\t  Pedro Pinto   - 201105537");
-      writeline(socket_id,"\t\t\t  Pedro Tavares - 201201716");
       writeline(socket_id,"\t\t________________________________________");
       writeline(socket_id,"\t\t________________________________________");
       writeline(socket_id,"\t\t     BEM VINDO AO * RESPONDA SE PUDER *");
