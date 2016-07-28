@@ -9,7 +9,6 @@ import org.graphstream.ui.view.Viewer;
 //import org.graphstream.ui.swingViewer.ViewerPipe; 
 import org.graphstream.ui.view.ViewerListener;
 import org.graphstream.ui.view.ViewerPipe;
-
 import com.google.common.base.Splitter;
 import com.google.common.collect.Iterables;
 
