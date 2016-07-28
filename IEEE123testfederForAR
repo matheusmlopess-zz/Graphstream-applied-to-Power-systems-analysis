@@ -57,7 +57,6 @@ public class ieee123dmsGUIvalidation{
 
 	public static Multimap<String, String> main(String[] args, String line ) throws InterruptedException {
 		
-				
 		System.setProperty("org.graphstream.ui.renderer", "org.graphstream.ui.j2dviewer.J2DGraphRenderer");
 		Graph graph = new MultiGraph("Test");
 		
