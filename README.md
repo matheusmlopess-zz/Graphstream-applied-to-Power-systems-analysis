@@ -2,10 +2,10 @@
 
 Graphstream API website: http://graphstream-project.org/
 
-![alt tag](http://i.imgur.com/Iv9guJv.gif)
+![alt tag](http://i.imgur.com/zlU4gR2.gif)
 
 (Test model of shortest path Dijkstra's algorithm for a IEEE37 node feeder, coordinates from OpendDSS LVTEST scrip)
 
-![alt tag](http://i.imgur.com/zlU4gR2.gif)
+![alt tag](http://i.imgur.com/Iv9guJv.gif)
 
 (Test model of shortest path Dijkstra's algorithm for a LVTEST 900+ node test feeder, coordinates from OpendDSS LVTEST scrip)
