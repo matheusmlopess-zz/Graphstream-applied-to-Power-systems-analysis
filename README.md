@@ -1,4 +1,4 @@
-### Graphstream APIs developed to suport a Multi-Agent System model developed to perform automatic reconfiguration in distribution power grids.
+### Graphstream APIs developed to support a Multi-Agent System model of automatic reconfiguration for distribution power grids.
 
 ##Early tests:
 
